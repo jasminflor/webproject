@@ -1,0 +1,55 @@
+/* 
+Accent 1: #003366 (Dark Blue)
+Accent 2: #CC6600 (Dark Orange)
+Background: #FFFFFF (White)
+*/
+
+
+body {
+    padding: 20px; 
+    font-size: 16px; 
+}
+
+h1, h2, h3 {
+    color: #003366; 
+    text-align: center; 
+}
+
+a {
+    color: #003366; 
+    font-weight: bold; 
+    text-decoration: none; 
+}
+
+a:hover {
+    color: #CC6600; 
+}
+
+.text-box {
+    background-color: #003366; 
+    color: #FFFFFF; 
+    width: 80%; 
+    padding: 15px; 
+    border: 3px dashed #CC6600; 
+    margin: 20px 0; 
+}
+
+.box-model-table {
+    border-collapse: collapse; 
+    width: 100%; 
+}
+
+.box-model-table th, 
+.box-model-table td {
+    border: 2px solid #CC6600; 
+    padding: 10px; 
+    text-align: left; 
+}
+
+.image-content div {
+    background-color: #003366; 
+    width: 646px; 
+    padding: 15px; 
+    border: 3px solid #CC6600; 
+    margin: 20px 0; 
+}
