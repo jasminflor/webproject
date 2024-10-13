@@ -2,22 +2,232 @@
 <html lang="en-US">
 
 <head>
-<meta charset="UTF-8">
+    <meta charset="UTF-8">
+    <title>Utah Wonders</title>
+    <meta name="description" content="Explore Utah's stunning landscapes, featuring national parks, vibrant rock formations, and rich cultural heritage, perfect for outdoor adventures and relaxation.">
+    <meta name="keywords" content="Utah, National Parks, Zion, Bryce Canyon, Arches, Canyonlands, Capitol Reef, Outdoor Adventures, Natural Beauty, Cultural Heritage, Hiking, Scenic Landscapes, Salt Lake City, Alpine Lakes, Native American History">
+    <meta name="author" content="Jasmin Hernandez">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css"> 
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            background-color: #f4f4f4;
+            color: #333;
+            margin: 0;
+            padding: 20px;
+        }
 
-<title>YOUR title here</title>
+        nav ul {
+            background: #007bff;
+            color: #fff;
+            padding: 10px;
+            list-style: none;
+            text-align: center;
+        }
 
-<meta name="description" content="brief description of YOUR page here">
-<meta name="keywords" content="keywords related to YOUR page here">
-<meta name="author" content= "YOUR name here">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
+        nav ul li {
+            display: inline;
+            margin-right: 20px;
+        }
+
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        h1, h2, h3 {
+            color: #004085;
+        }
+
+        img {
+            display: block;
+            margin: 20px auto;
+            max-width: 100%;
+            height: auto;
+            transition: transform 0.5s ease;
+        }
+
+        img:hover {
+            transform: scale(1.05);
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+            animation: fadeIn 1s ease-in;
+        }
+
+        th, td {
+            text-align: left;
+            padding: 10px;
+            border: 1px solid #ddd;
+        }
+
+        th {
+            background-color: #007bff;
+            color: white;
+        }
+
+        tr:nth-child(even) {
+            background-color: #f9f9f9;
+        }
+
+        @keyframes fadeIn {
+            from { opacity: 0; }
+            to { opacity: 1; }
+        }
+
+        ul {
+            list-style: none;
+            padding: 0;
+            animation: fadeIn 1s ease-in;
+        }
+
+        ul li {
+            background: #e9ecef;
+            margin: 5px 0;
+            padding: 10px;
+            border-radius: 5px;
+            transition: transform 0.3s ease;
+        }
+
+        ul li:hover {
+            transform: scale(1.02);
+        }
+    </style>
 </head>
 
 <body>
-	
-<ul> 
-        <li> <a href= "running.html"> Trail Running </a> </li>
-        <li> <a href= "box_model.html"> CSS Box Model </a> </li>   
-    </ul>
+    <nav>
+        <ul>
+            <li><a href="running.html">Trail Running</a></li>
+            <li><a href="box_model.html">CSS Box Model</a></li>
+            <li><a href="index.html">Utah Wonders</a></li>
+        </ul>
+    </nav>
+
+    <h1>Must-Visit National Parks</h1>
+    <p>Each national park serves as a centerpiece for a travel region that invites visitors to dive into the beauty of not just the <a href="https://www.visitutah.com/places-to-go/parks-outdoors/the-mighty-5" target="_blank">iconic parks</a>, but also the state parks, national monuments, and charming small towns that enrich Southern Utah.</p>
+    <img src="resources/utah.jpg" alt="A look into National Parks" width="1200" height="450">
     
-</body>
-</html>
+    <table>
+        <thead>
+            <tr>
+                <th>National Park</th>
+                <th>Area (sq miles)</th>
+                <th>Elevation (ft)</th>
+                <th>Notable Attractions</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Zion National Park</td>
+                <td>146</td>
+                <td>8,726</td>
+                <td>The Narrows, Angels Landing</td>
+            </tr>
+            <tr>
+                <td>Bryce Canyon National Park</td>
+                <td>56</td>
+                <td>9,105</td>
+                <td>Sunrise Point, Queen's Garden Trail</td>
+            </tr>
+            <tr>
+                <td>Arches National Park</td>
+                <td>76</td>
+                <td>5,653</td>
+                <td>Delicate Arch, Fiery Furnace</td>
+            </tr>
+            <tr>
+                <td>Canyonlands National Park</td>
+                <td>527</td>
+                <td>7,428</td>
+                <td>Island in the Sky, Needles District</td>
+            </tr>
+            <tr>
+                <td>Capitol Reef National Park</td>
+                <td>241</td>
+                <td>6,498</td>
+                <td>Fruita Historic District, Waterpocket Fold</td>
+            </tr>
+        </tbody>
+    </table>
+    
+    <img src="resources/arches.jpg" alt="Beautiful night time scene" width="1920" height="900">
+
+    <h2>Hidden Gems: Discovering Utah's Lesser-Known Attractions</h2>
+    <p>Beyond the well-known national parks, Utah is home to numerous hidden gems waiting to be explored. From secluded hiking trails to picturesque small towns, these lesser-known attractions offer unique experiences that highlight the state's diverse beauty and rich culture. <a href="https://www.utah.com/articles/post/10-secret-utah-adventures/" target="_blank">Explore the secrets</a> of Utah's hidden beauty.</p>
+    <img src="resources/secret.jpg" alt="Secret trails" width="1800" height="1200">
+
+    <h2>Utah's Most Iconic Landscapes</h2>
+    <p>Utah's landscapes are renowned for their breathtaking beauty and unique geological features. From the stunning formations of Arches National Park to the dramatic canyons of Canyonlands, each site tells a story of nature's artistry and invites visitors to connect with the extraordinary environment.</p>
+    <a href="https://matadornetwork.com/trips/12-stunning-landscapes-youll-see-utah/" target="_blank">
+        <img src="resources/landscape.jpg" alt="Beautiful landscape in Utah" width="1600" height="945">
+    </a>
+
+    <h3>Preparation for Your Utah Adventure</h3>
+    <p>Before embarking on your journey to explore Utah's breathtaking national parks and iconic landscapes, it's essential to plan ahead. Start by researching the parks you wish to visit, checking weather conditions, and familiarizing yourself with park regulations. Packing wisely is crucial! Don't forget to prepare for safety, as well as a camera to capture the stunning scenery. By taking these steps, you can ensure a safe and enjoyable experience amidst Utah's natural beauty.</p>
+    
+    <ul>
+        <li><strong>Clothing:</strong>
+            <ul>
+                <li>Moisture-wicking base layers</li>
+                <li>Insulating layer (fleece or down jacket)</li>
+                <li>Waterproof jacket</li>
+                <li>Hiking pants/shorts</li>
+                <li>Warm hat and gloves (seasonal)</li>
+            </ul>
+        </li>
+        <li><strong>Footwear:</strong>
+            <ul>
+                <li>Sturdy hiking boots or shoes</li>
+                <li>Camp shoes or sandals</li>
+            </ul>
+        </li>
+        <li><strong>Backpack:</strong>
+            <ul>
+                <li>Daypack for hikes</li>
+                <li>Hydration system or water bottles</li>
+            </ul>
+        </li>
+        <li><strong>Food and Water:</strong>
+            <ul>
+                <li>High-energy snacks (trail mix, granola bars)</li>
+                <li>Lunch options (sandwiches, fruit)</li>
+                <li>Water purification system (if necessary)</li>
+            </ul>
+        </li>
+        <li><strong>Navigation Tools:</strong>
+            <ul>
+                <li>Map of the area</li>
+                <li>Compass or GPS device</li>
+            </ul>
+        </li>
+        <li><strong>Safety and First Aid:</strong>
+            <ul>
+                <li>First aid kit</li>
+                <li>Emergency whistle</li>
+                <li>Multi-tool or knife</li>
+            </ul>
+        </li>
+        <li><strong>Sun and Insect Protection:</strong>
+            <ul>
+                <li>Sunscreen</li>
+                <li>Sunglasses</li>
+                <li>Insect repellent</li>
+            </ul>
+        </li>
+        <li><strong>Photography Gear:</strong>
+            <ul>
+                <li>Camera or smartphone</li>
+                <li>Extra batteries or power bank</li>
+                <li>Tripod (optional)</li>
+            </ul>
+        </li>
+        <li><strong>Camping Gear (if applicable):</strong>
+            <ul>
+                </ul></li>
